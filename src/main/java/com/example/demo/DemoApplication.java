@@ -15,7 +15,10 @@ public class DemoApplication {
 
 	@RequestMapping("/")
   public String home() {
-	ab
+
     return "Hello Docker World!";
   }
+  public String duplicateHome() {
+    return "Hello Docker World!";
+}
 }
